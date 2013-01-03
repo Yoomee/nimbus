@@ -123,6 +123,8 @@
 
 @end
 
+UIImage* NISnapshotOfViewWithTransparencyOption(UIView* view, BOOL transparency);
+
 /**
  * Returns an opaque UIImage snapshot of the given view.
  *
