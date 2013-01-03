@@ -46,6 +46,8 @@ const CGFloat NIPagingScrollViewDefaultPageMargin = 10;
 
 @property (nonatomic, NI_STRONG) UIScrollView* pagingScrollView;
 
+- (void)didAnimateToPage:(NSInteger)pageIndex ;
+
 @end
 
 
